@@ -1,0 +1,16 @@
+
+Bandwidth compression script
+----------------------------
+
+This python sript compresses the conetns and send the compressed request to browser.
+Browser has to process fewer characaters saving bandwidth.
+
+Usage:
+
+In a linux shell run:
+
+python Bandwidthsaver.py
+
+In a firefox window open the URL http://localhost:8800
+
+In the linux shell you should see the compressed output buffer length and the number of characters saved due to compression.
